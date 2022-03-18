@@ -1,25 +1,15 @@
-## Rendering example of Dawn on Android with Vulkan backend
+## Dawn on Android with Vulkan backend
+Basically just a quick of Dawn/Vulkan on android.
 
-
-### Preparations
 https://developer.android.com/ndk/guides/graphics/getting-started
 
-### Get slightly modified dawn
-```
-git clone https://github.com/AlexVestin/dawn-android
-```
 
-### Import into andriod studio
-``` 
+`git clone https://github.com/AlexVestin/dawn-android`
+
 Create new empty AndriodStudio project
 Copy files from android_studio_files
-- In build.gradle, change if needed:
+* In build.gradle, change if needed:
   - file path to CMakeLists.txt
   - ndkVersion
+  - applicationId
 - In AndroidManifest.xml change the name of the package
-```
-
-Should be good to build after that
-
-
-https://dawn.googlesource.com/dawn
