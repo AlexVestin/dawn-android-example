@@ -1,0 +1,27 @@
+{
+    "configurations": [
+      {
+        "name": "Visualised",
+        "intelliSenseMode": "clang-x64",
+        "includePath": [
+            "${workspaceFolder}", 
+            "dawn/src/",
+            "dawn/gen/include",
+            "dawn/include",
+            "/home/alex/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include",
+            "/home/alex/Android/Sdk/ndk/23.1.7779620/sysroot/usr/include/",
+            "/home/alex/Android/Sdk/ndk/23.1.7779620/sources/android/",
+            "/home/alex/prog/emsdk/upstream/emscripten/system/include"
+        ],
+        "cStandard": "c11",
+        "cppStandard": "c++17",
+        "browse": {
+          "path": ["${workspaceFolder}"],
+          "limitSymbolsToIncludedHeaders": true,
+          "databaseFilename": ""
+        }
+      }
+    ],
+    "version": 4
+  }
+  
